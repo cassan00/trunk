@@ -3,20 +3,12 @@
 
 
 # 2020.06.08 init -----------------------------------
-1. 각 DBMS 별 port, serviceName-> sid(DB-name: System Identifier 명의 약자로 데이터베이스를 식별함에 있어 고유한)
-최근에는 SID로 직접 기술하여 접근하는 것보다는 service name 을 tns 에 기술하여 사용.
-
-서비스명 ?
-인스턴스명 ?
-데이터베이스 명 (오라클에서는 SID, MYSQL에서는 )
-SID : 오라클에서는 고유 DB명칭이 SID 약어가 된다.
-
+1. 각 DBMS 별 port, sid(DB-name: System Identifier 명의 약자로 데이터베이스를 식별함에 있어 고유한)
 ```
-Oracle : 1521        -- https://docs.oracle.com/cd/B19306_01/install.102/b25293/app_port.htm
+Oracle : 1521 / ?       -- https://docs.oracle.com/cd/B19306_01/install.102/b25293/app_port.htm
 Mysql(Maria) : 3306
 MSSQL : 1433
-Tibero : 8629
-tomcat : 8080
+Tibero : 8629 / tibero
 
 ```
  + MySQL Orcale 차이 : https://hue9010.github.io/db/mysql_schema/
@@ -24,6 +16,9 @@ tomcat : 8080
  + 오라클 sid : http://blog.naver.com/hea1920/10105980947
  + MS-SQL sid : https://androiddev.tistory.com/4 https://mozi.tistory.com/302
 
+  + TCP Protocol   
+  + jdbc?
+  + 오라클 복구
 2. ip 관련처리
 3. DB OBJT
 4. 소스트리 사용법
@@ -52,7 +47,6 @@ com.tmax.tibero.jdbc.TbClob content = (com.tmax.tibero.jdbc.TbClob) detailMap.ge
 				// TODO: handle exception
 			}
 ```
-\
 
 8. DB object
 
@@ -66,13 +60,6 @@ https://www.lesstif.com/java/spring-client-ip-18220218.html
 11. 이클립스 내에서 확인가능한 tomcat Server 내부파일의 용도
 
 12. ssl : https://offbyone.tistory.com/274
-13. sql 실행순서
-
-20. jdbc?
-21. 오라클 복구
-22. TCP Protocol   
-23. 톰캣 서버 폴더구조
-
 
 
 # URL, URI 차이

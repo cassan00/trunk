@@ -1,0 +1,15 @@
+
+/* A 테이블에는 있지만 B 테이블에는 없는것 
+(left join 은 왼쪽테이블의 모든 row를 보장하는 속성을 이용)
+*/
+select /* sp.mng_no, hn.mng_no */ 
+/* 이사람들의 이름과 생년월일 필요 */
+	fn_get_hana_stud_info(sp.mng_no,'NM') as nm, 
+	fn_get_hana_stud_info(sp.mng_no,'BIRTH_DAY') as br
+from TB_BSNS_TRP_SPMNY SP LEFT JOIN TN_HANA_STUD_MNG HN -- 1546
+					on SP.MNG_NO = HN.MNG_NO
+where 1=1
+and delete_at = '0'
+and birchld_mng_no is null -- 출생자녀 필드 
+and hn.mng_no is null
+
