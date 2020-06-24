@@ -3,6 +3,13 @@
 
 
 # 2020.06.08 init -----------------------------------
+
+0. 오라클 like full scan?
+http://www.dba-oracle.com/oracle_tips_like_sql_index.htm
+```
+Because standard Oracle cannot index into a large column, there 'like' queries cause full-table scans, and Oracle must examine every row in the table, even when the result set is very small.  These unnecessary full-table scans are a problem:
+```
+
 1. 각 DBMS 별 port, serviceName-> sid(DB-name: System Identifier 명의 약자로 데이터베이스를 식별함에 있어 고유한)
 최근에는 SID로 직접 기술하여 접근하는 것보다는 service name 을 tns 에 기술하여 사용.
 
@@ -24,7 +31,13 @@ tomcat : 8080
  + 오라클 sid : http://blog.naver.com/hea1920/10105980947
  + MS-SQL sid : https://androiddev.tistory.com/4 https://mozi.tistory.com/302
 
-2. ip 관련처리
+2. wireSHak
+https://m.blog.naver.com/harry5313/221413016102
+
+2-1. HTTp http://blog.naver.com/PostView.nhn?blogId=dmbs335&logNo=10174018152
+
+
+
 3. DB OBJT
 4. 소스트리 사용법
 5. 웹 페이지 로딩 순서 (웹엔진)
