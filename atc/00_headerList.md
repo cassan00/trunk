@@ -2,6 +2,10 @@
 
 
 
++ tibero Plan : Action > Current Plan (SYS 계정이여야할 수 있음) w
+
+
+
 # 2020.06.08 init -----------------------------------
 
 0. 오라클 like full scan?
@@ -85,8 +89,22 @@ https://www.lesstif.com/java/spring-client-ip-18220218.html
 21. 오라클 복구
 22. TCP Protocol   
 23. 톰캣 서버 폴더구조
+  - WEB(apache) vs WAS(jboss)
+24. documnet ready
+```
+$(document).ready()는 DOM (Document Object Model) 이 load 된 후에 즉시 실행 되게 된다.
+
+출처: https://aljjabaegi.tistory.com/43 [알짜배기 프로그래머]
+
+DOM load => $(document).ready() => <body onload> => image, resource load =>  $(window).load()
+
+```
+https://blog.devari.kr/2017/publishing/ready-document-window-onload
 
 
+
+25. ``` *.prop , *.attri but```
+https://ojava.tistory.com/133
 
 # URL, URI 차이
 String	getRequestURI()
