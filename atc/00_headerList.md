@@ -106,6 +106,26 @@ https://blog.devari.kr/2017/publishing/ready-document-window-onload
 25. ``` *.prop , *.attri but```
 https://ojava.tistory.com/133
 
+
+
+
+26. pollyfill
+```
+https://jjester.tistory.com/17
+ - MDN(Mozilla Developer Network) 웹 문서는 웹 표준과 모질라 프로젝트에 대한 개발 문서들이 담긴 모질라의 공식 웹사이트이다  MDN 웹 문서는 개발자 커뮤니티가 관리하는 위키로, HTML, 자바스크립트, CSS, 웹 API, MathML 등 다양한 주제의 웹 개발 자료를 담고 있다.
+ -
+
+```
+
+
+27. JS >>  
+```
+ 숫자로 치환할 수 있을때 숫자표기(num), 없을때 0 표기
+ 비트연산자인데 어떻게 이것이 가능하지?
+```
+
+
+
 # URL, URI 차이
 String	getRequestURI()
 Returns the part of this request's URL from the protocol name up to the query string in the first line of the HTTP request.
