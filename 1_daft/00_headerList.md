@@ -21,7 +21,7 @@ Because standard Oracle cannot index into a large column, there 'like' queries c
 인스턴스명 ?
 데이터베이스 명 (오라클에서는 SID, MYSQL에서는 )
 SID : 오라클에서는 고유 DB명칭이 SID 약어가 된다.
-
+;
 ```
 Oracle : 1521        -- https://docs.oracle.com/cd/B19306_01/install.102/b25293/app_port.htm
 Mysql(Maria) : 3306
@@ -69,6 +69,8 @@ com.tmax.tibero.jdbc.TbClob content = (com.tmax.tibero.jdbc.TbClob) detailMap.ge
 				// TODO: handle exception
 			}
 ```
+tochar 로 하게되면 x
+https://tomining.tistory.com/95
 \
 
 8. DB object
@@ -125,9 +127,48 @@ https://jjester.tistory.com/17
 ```
 
 
+28. JS : repaat(n)
+```
+str.repeat(10) // 해당문자열을 10 회 반복
+```
+
 
 # URL, URI 차이
 String	getRequestURI()
 Returns the part of this request's URL from the protocol name up to the query string in the first line of the HTTP request.
 StringBuffer	getRequestURL()
 Reconstructs the URL the client used to make the request.
+
+
+
+
+29. 오라클 한글 3 byte
+https://plakia.tistory.com/432
+utf8 - 3byte, 한글정렬 가능
+
+
+
+
+30. dense_rank()
+https://m.blog.naver.com/gglee0127/221318160003
+
+
+31. # fractional <> decimal <> numeric
+
+- https://ikeyword.tistory.com/entry/DB-%EA%B8%B0%EB%B3%B8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%83%80%EC%9E%85-%EB%82%A0%EC%A7%9C-%EC%8B%9C%EA%B0%84-DATE-TIMESTAMP
+- https://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements001.htm#SQLRF0021
+
+
+
+32. INTERVAL_YEAR
+https://farmerkyh.tistory.com/category/%28DB%29%20Oracle%20%ED%8A%9C%EB%8B%9D
+
+
+
+33. xX mM lL 과 일치하는 처리 명령 대상은 허용되지 않습니다.
+
+
+
+34. 구체화 뷰
+https://ko.wikipedia.org/wiki/%EA%B5%AC%EC%B2%B4%ED%99%94_%EB%B7%B0
+https://myjamong.tistory.com/220?category=928965
