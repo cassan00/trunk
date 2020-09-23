@@ -1,6 +1,4 @@
 /* Default Theme Styles */
-
-// Left line before pseudo element.
 .toc-link::before {
   background-color: #EEE;
   content: ' ';
@@ -13,5 +11,7 @@
 }
 
 .is-active-link::before {
-  background-color: #54BC4B;
+  content: "«";
+  color: RED;
+ /* background-color: #54BC4B; */
 }

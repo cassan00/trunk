@@ -1,7 +1,5 @@
 /* Core Styles */
-
-// To leverage the native smooth-scrolling by the browser (currently available in Firefox 36+ and Chrome 49+)
-// body, .smooth-container { scroll-behavior: smooth }
+/* body, .smooth-container { scroll-behavior: smooth } */
 
 .toc {
   overflow-y: auto;
@@ -17,6 +15,7 @@
 }
 
 .toc-list {
+  font-size:9pt;
   margin: 0;
   padding-left: 10px;
 }
