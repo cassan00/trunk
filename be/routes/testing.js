@@ -6,7 +6,7 @@ router.get('/', function (req, res, next) {
 
 
 
-	res.send("User");
+	res.send('한글'+"한글");
 
 
 
