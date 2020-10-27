@@ -1,0 +1,38 @@
+
+# Java&Tomcat Version&Eclipse
+샘플 프로젝트 만들 때 마다 삽질하는게 너무 짜증나서 적음
+
+## 관련 오류 메세지
+Tomct version 7.0 only supports J2EE 1.2, 1.3, 1.4, and Java EE 5 and 6 Web modules
+
+## Tomcat 별 지원 Servlet / Jsp / Java Version
+### 확인 페이지 : http://tomcat.apache.org/whichversion.html
+### 요약
+| Tomcat | Java | Servlet | Jsp |
+| 7.0 | 6 ▼ | 3.0 | 2.2 |
+| 8.0 | 7 ▼ | 3.1 | 2.3 |
+| 9.0 | 8 ▼ | 4.0 | 2.3 |
+| 10.0 | 8 ▼ | 5.0 | 3.0 |
+
+
+## Eclipse 별 지원 Jave version
+### 확인 페이지 : https://wiki.eclipse.org/Eclipse/Installation
+### 요약
+| JAVA VER | ECLIPSE VER |
+| 6.0 | `Eclipse 4.3 (Kepler, June 2013) ▼` |
+| 7.0 | `Eclipse 4.4 (Luna, June 2014)` `Eclipse 4.5 (Mars, June 2015)` |
+| 8.0 | `Eclipse 4.6 (Neon, June 2016)` `Eclipse 4.7 (Oxygen, June 2017)` `Eclipse 4.8 (Photon, June 2018)` ` Eclipse 4.9 (2018-09) ▲`|
+| 11.0 | `Eclipse 4.17 (2020-09) ▲`|
+
+
+## STS 별 지원 Jave version
+### 확인 페이지 : https://docs.spring.io/sts/nan/v390/NewAndNoteworthy.html
+### 확인 페이지 : https://github.com/spring-projects/spring-boot/wiki
+| SPRING VER | based ECLIPSE | JAVA VER  | TOMCAT VER |
+| Spring Tool Suite 3.7.0 | Eclipse Mars | 7.0 | 8.0 |
+| Spring Tool Suite 3.8.0 | Eclipse Neon (4.6.0)| 8.0 | 9.0 |  
+| Spring Tool Suite 3.9.0 | Eclipse Oxygen (4.7) | 8.0 | 9.0 |
+| Spring Tool Suite 3.9.8 | Eclipse 2019-03 (4.11) | 8.0 | 9.0 |  
+| Spring Tool Suite 4.0 (Spring boot) | - | - | - | |
+| Spring Boot 2.0 (Sep 2019)| - | 8.0 (9.0 support) | 8.5 |
+| Spring Boot 2.3 (May, 2020)| - | 14 (11,8 호환) | * |  
