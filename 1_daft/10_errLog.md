@@ -19,3 +19,23 @@
 ```
 구동 JAVA 버전과 RunTime 실행환경이 다를때 발생
 ```
+
+
+# 2020-10-08 : strict 모드에서는 함수의 'arguments' 속성에 액세스할 수 없습니다
+분류 : `js`
+링크 : https://beomy.tistory.com/13
+
+
+
+# 2020-10-21 :  org.eclipse.m2e.maven2_classpath_container will not be exported or published
+분류 : `java`
+링크 :  https://ebom.tistory.com/entry/%EC%97%90%EB%9F%AC-Classpath-entry-orgeclipsem2eMAVEN2CLASSPATHCONTAINER-will-not-be-exported-or-published
+ -  Spring Boot 이니셜라이즈 해제 후 빌드 시 발생
+
+
+# 2020-10-21 : there are no resources that can be added or removed from the server
+분류 : `이클립스`
+링크 : https://kimtaekju-study.tistory.com/190
+
+# CANNOT LOAD JDBC DRIVER CLASS 'ORACLE.JDBC.DRIVER.ORACLEDRIVER' 오류 해결
+https://hello-nanam.tistory.com/284
