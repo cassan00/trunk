@@ -59,4 +59,16 @@ http://localhost:9000/spkswm/login (Spring Boot) 로 프록시하는 부분까�
 Tomcat 9.0 Start + > npm run serve
 ```
 
+### 1. build 경로 변경
+ - vue build 는 기본으로 dist 폴더를 생성해 css/img/js 를 떨구기 떄문에
+ - Spring 에서 인식하는 경로로 옮겨줌
+
+ ```
+ D:\77. 개인\trunk\sb\spkswm\src\main\resources\static
+
+ > npm run build
+
+ ```
+
+
 
