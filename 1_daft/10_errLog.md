@@ -39,3 +39,9 @@
 
 # CANNOT LOAD JDBC DRIVER CLASS 'ORACLE.JDBC.DRIVER.ORACLEDRIVER' 오류 해결
 https://hello-nanam.tistory.com/284
+
+
+# 2020-11-10 : JSTL - POI 비교
+분류 : `java`
+링크 : https://m.blog.naver.com/tmondev/221388780914
+https://offbyone.tistory.com/70
